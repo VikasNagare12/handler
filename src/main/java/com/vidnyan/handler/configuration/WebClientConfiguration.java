@@ -1,4 +1,4 @@
-package com.vidnyan.handler.route.configuration;
+package com.vidnyan.handler.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
