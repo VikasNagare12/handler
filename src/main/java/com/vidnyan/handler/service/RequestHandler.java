@@ -15,8 +15,6 @@ public class RequestHandler {
 
     public Mono<ServerResponse> setData(ServerRequest request) {
         Mono<String> dataMono = request.bodyToMono(String.class);
-
-
         return ServerResponse.ok().bodyValue("Hellow Vikas ");
     }
 }
